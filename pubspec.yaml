@@ -1,0 +1,74 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^0.1.3"
+  path_drawing: "^0.4.1"
+  flutter: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.7.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Quicksand"
+      fonts: 
+        - 
+          asset: "fonts/Quicksand-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Quicksand-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Quicksand-500.ttf"
+          style: "normal"
+          weight: 500
+    - 
+      family: "Lato"
+      fonts: 
+        - 
+          asset: "fonts/Lato-italic.ttf"
+          style: "italic"
+          weight: 500
+    - 
+      family: "Numans"
+      fonts: 
+        - 
+          asset: "fonts/Numans-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Playfair Display"
+      fonts: 
+        - 
+          asset: "fonts/PlayfairDisplay-600italic.ttf"
+          style: "italic"
+          weight: 600
+        - 
+          asset: "fonts/PlayfairDisplay-italic.ttf"
+          style: "italic"
+          weight: 400
+        - 
+          asset: "fonts/PlayfairDisplay-700italic.ttf"
+          style: "italic"
+          weight: 700
+        - 
+          asset: "fonts/PlayfairDisplay-500italic.ttf"
+          style: "italic"
+          weight: 500
+    - 
+      family: "Roboto"
+      fonts: 
+        - 
+          asset: "fonts/Roboto-italic.ttf"
+          style: "italic"
+          weight: 400
+  uses-material-design: true
